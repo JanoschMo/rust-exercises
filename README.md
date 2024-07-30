@@ -31,12 +31,12 @@ The list of resources is intentionally short and opinionated.
 
 The slides for the workshop are NOT intended as reference material, but you can find them here anyway:
 
-- [day 1][rw1]
-- [day 2][rw2]
-- [day 3][rw3]
-- [day 4][rw4]
-- [day 5][rw5]
-- [day 6][rw6]
+- [day 1][slides1]
+- [day 2][slides2]
+- [day 3][slides3]
+- [day 4][slides4]
+- [day 5][slides5]
+- [day 6][slides6]
 
 <!-- references -->
 
@@ -51,9 +51,9 @@ The slides for the workshop are NOT intended as reference material, but you can 
 [docs-winnow]: https://docs.rs/winnow
 [this-week-in-rust]: https://this-week-in-rust.org/
 
-[rw1]: https://rw1.buenzli.dev
-[rw2]: https://rw2.buenzli.dev
-[rw3]: https://rw3.buenzli.dev
-[rw4]: https://rw4.buenzli.dev
-[rw5]: https://rw5.buenzli.dev
-[rw6]: https://rw6.buenzli.dev
+[slides1]: https://senekor.github.io/rust-workshop/1
+[slides2]: https://senekor.github.io/rust-workshop/2
+[slides3]: https://senekor.github.io/rust-workshop/3
+[slides4]: https://senekor.github.io/rust-workshop/4
+[slides5]: https://senekor.github.io/rust-workshop/5
+[slides6]: https://senekor.github.io/rust-workshop/6
