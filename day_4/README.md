@@ -179,7 +179,7 @@ Imagine no more, we're gonna do it right now.
 First, let's create a new application to ship to our users:
 
 ```sh
-cd rust-workshop/day_4
+cd rust-exercises/day_4
 cargo new shippable
 ```
 
@@ -196,14 +196,14 @@ Every `Cargo.toml` in the workspace must have the repository key defined:
 
   ```toml
   members = ["day_?/*"]
-  repository = "https://github.com/<YOUR_GITHUB_USERNAME>/rust-workshop"
+  repository = "https://github.com/<YOUR_GITHUB_USERNAME>/rust-exercises"
   ```
 
 - For all other `Cargo.toml`s (the individual project manifests), add it below the `edition` key:
 
   ```toml
   edition = "2021"
-  repository = "https://github.com/<YOUR_GITHUB_USERNAME>/rust-workshop"
+  repository = "https://github.com/<YOUR_GITHUB_USERNAME>/rust-exercises"
   ```
 
 Now run `cargo dist init --yes`, which will generate a release configuration with decent default values for you.

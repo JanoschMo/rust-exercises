@@ -40,7 +40,6 @@ The slides for the workshop are NOT intended as reference material, but you can 
 
 <!-- references -->
 
-[rust-workshop-extra]: https://github.com/senekor/rust-workshop-extra
 [feedback-form]: https://docs.google.com/forms/d/e/1FAIpQLSdrzP1LVkLSY8jVe-5P6wFPAE2W3GZFitkZ0j5Btn4uoqPuLg/viewform?usp=sf_link
 [the-book]: https://doc.rust-lang.org/book/
 [rust-by-example]: https://doc.rust-lang.org/rust-by-example/

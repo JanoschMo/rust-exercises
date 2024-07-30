@@ -4,7 +4,7 @@ Here's a checklist for this week's tasks:
 
 ## Practice
 
-- [ ] Create a fork of the [workshop repository][workshop-repo].
+- [ ] Create a fork of the [exercise repository][exercise-repo].
 - [ ] [Install the Rust toolchain][install-rust].
 - [ ] Setup your editor for Rust development.
       If you're using Visual Studio Code, simply install the recommended extensions.
@@ -93,7 +93,7 @@ Make sure you finished the standard library reading, some of those items might c
   - [2022: day 2](https://adventofcode.com/2022/day/2)
 
 [install-rust]: https://www.rust-lang.org/tools/install
-[workshop-repo]: https://github.com/senekor/rust-workshop
+[exercise-repo]: https://github.com/senekor/rust-exercises
 [rust-analyzer]: https://rust-analyzer.github.io/
 [vscode-clippy]: https://code.visualstudio.com/docs/languages/rust#_linting
 [rustlings]: https://github.com/rust-lang/rustlings
