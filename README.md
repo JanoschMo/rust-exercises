@@ -1,12 +1,11 @@
-# Rust Workshop
+# Rust Exercises
 
-Code examples and references to learning resources.
+This repository contains the exercises that go along with my [Rust workshop][workshop-repo].
 
-Please suggest improvements for this workshop _continuously_ and _generously_ !
-Here's the [anonymous form][feedback-form].
-Thank you! ❤️
+Below, you'll find additional learning resources that you may want to keep in reach while learning Rust.
+The list is intentionally kept short and opinionated.
 
-The list of resources is intentionally short and opinionated.
+Get started with [day_1/README.md](day_1/README.md).
 
 ## Learning resources
 
@@ -33,7 +32,7 @@ The slides for the workshop are NOT intended as reference material, but you can 
 
 <!-- references -->
 
-[feedback-form]: https://docs.google.com/forms/d/e/1FAIpQLSdrzP1LVkLSY8jVe-5P6wFPAE2W3GZFitkZ0j5Btn4uoqPuLg/viewform?usp=sf_link
+[workshop-repo]: https://github.com/senekor/rust-workshop
 [the-book]: https://doc.rust-lang.org/book/
 [rust-by-example]: https://doc.rust-lang.org/rust-by-example/
 [rustlings]: https://rustlings.cool/

@@ -4,7 +4,7 @@ Here's a checklist for this week's tasks:
 
 ## Practice
 
-- [ ] Create a fork of the [exercise repository][exercise-repo].
+- [ ] Create a repository from [the template][exercise-repo].
 - [ ] [Install the Rust toolchain][install-rust].
 - [ ] Setup your editor for Rust development.
       If you're using Visual Studio Code, simply install the recommended extensions.
@@ -13,14 +13,13 @@ Here's a checklist for this week's tasks:
   - debugging support
 - [ ] Configure your LSP to use Rust's official linter, clippy.
   - [Instructions for Visual Studio Code][vscode-clippy]
-  - [ ] Fix all linter warnings in `hello-clippy`.
-- [ ] Setup [rustlings].
-      This will download a `rustlings` folder wherever you run the setup command.
-      To keep things organized, you can run the setup here inside your fork.
-      The `rustlings` directory will be ignored by git, but you'll have everything in one place.
-      Note that LSP actually _doesn't_ work for rustlings exercises.
-      This is fine, the small exercises are meant for you to grapple with the syntax yourself.
-- Solve rustlings exercises (run `rustlings watch` inside `rustlings/`).
+  - [ ] [`hello-clippy`](hello-clippy/src/lib.rs) contains linter warnings.
+        Confirm that your editor shows them to you, then fix them.
+- [ ] Setup [rustlings]:
+  - [ ] run `cargo install rustlings`
+  - [ ] in the root of your repo, run `rustlings init`
+        This will create the `rustlings` folder containing all the exerices.
+- Solve rustlings exercises (run the command `rustlings` inside the `rustlings/` folder).
   - [ ] intro
   - [ ] variables
   - [ ] if
@@ -96,6 +95,7 @@ Make sure you finished the standard library reading, some of those items might c
 [exercise-repo]: https://github.com/senekor/rust-exercises
 [rust-analyzer]: https://rust-analyzer.github.io/
 [vscode-clippy]: https://code.visualstudio.com/docs/languages/rust#_linting
+[helix-website]: https://helix-editor.com/
 [rustlings]: https://github.com/rust-lang/rustlings
 [Exercism]: https://exercism.org/tracks/rust
 [Advent of Code]: https://adventofcode.com
